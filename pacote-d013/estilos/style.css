@@ -38,3 +38,11 @@ section#telefone{
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
+/* Configurações do Iframe para a tela Home ficar dentro da tela do celular */
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
