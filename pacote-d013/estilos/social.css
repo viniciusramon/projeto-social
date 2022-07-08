@@ -1,0 +1,36 @@
+  @charset "UTF-8";
+  
+  /* Reset geral */
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Esconder a barra de rolagem */
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+
+/* Configuração da Imagem */
+img {
+    width: 100vw;
+}
+
+/* Configuração do link */
+a{
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Configuração para mudar a cor do link quando passar o mouse sobre ele */
+a:hover{
+    background-color: red;
+}
